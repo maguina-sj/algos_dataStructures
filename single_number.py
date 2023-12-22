@@ -47,6 +47,15 @@
 
 # print(single_number([1,2,2,4,4,3,3]))
 
+# def single_number(nums):
+#   hash = set(nums)
+#   # for i in nums:
+#   #   hash.add(nums[i])
+#   return hash
+
+# print(single_number([1,2,2,4,4,3,3]))
+  
+
 def singleNumber(nums):
   result = 0
   for i in nums: 
@@ -55,4 +64,4 @@ def singleNumber(nums):
     print('bit operator aftermath', result)
   return result
 
-print(singleNumber([2,2,4,4,3,3,1]))
+print(singleNumber([2,3,4,7,2,4,3]))
